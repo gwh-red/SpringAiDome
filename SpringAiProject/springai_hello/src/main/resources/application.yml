@@ -1,0 +1,23 @@
+#server.port=8899
+#spring.application.name=spring-ai-deepseek-demo
+#
+#spring.ai.openai.api-key=sk-59dffb14f2c849b9826f1e6c681242c0
+#spring.ai.openai.base-url=https://api.deepseek.com
+#spring.ai.openai.chat.options.model=deepseek-chat
+#spring.ai.openai.chat.options.temperature=0.7
+
+server:
+  port: 8899
+
+spring:
+  application:
+    name: DeepseekDemoApplication
+    version: 1.0.0
+  ai:
+    openai:
+      api-key: sk-59dffb14f2c849b9826f1e6c681242c0
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+          temperature:  0.7
