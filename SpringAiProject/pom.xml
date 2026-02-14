@@ -12,6 +12,7 @@
         <module>springai_hello</module>
         <module>springAi_ChatClient</module>
         <module>SpringAiChatClientDome01</module>
+        <module>SpringAiFunction</module>
     </modules>
 
     <properties>
